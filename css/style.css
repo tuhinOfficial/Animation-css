@@ -1,0 +1,23 @@
+.box1{
+    width: 500px;
+    height: 400px;
+    border: 2px solid tomato;
+    overflow: hidden;
+}
+
+.box2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rebeccapurple;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.box3{
+    width: 150px;
+    border: 1px solid rgb(18, 208, 255);
+    white-space: nowrap;
+}
+.box3 p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
